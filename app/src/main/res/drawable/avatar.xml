@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape  android:shape="oval">
+
+            <solid android:color="@color/main_color"/>
+            <stroke android:color="@color/white" android:width="7dp"/>
+        </shape>
+    </item>
+    <item>
+        <inset android:drawable="@drawable/scooter"
+            android:insetRight="7dp"
+            android:insetTop="7dp"
+            android:insetLeft="7dp"
+            android:insetBottom="7dp" />
+    </item>
+
+
+</layer-list>
